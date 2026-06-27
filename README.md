@@ -8,11 +8,6 @@ Detect plant diseases, receive intelligent treatment recommendations, and improv
 
 <br>
 
-#[Website](https://yourwebsite.com) •
-#[Documentation](https://yourdocs.com) •
-#[Report Bug](https://github.com/YOUR_USERNAME/cropguard-ai/issues) •
-#[Request Feature](https://github.com/YOUR_USERNAME/cropguard-ai/issues)
-
 <br>
 
 ![License](https://img.shields.io/github/license/YOUR_USERNAME/cropguard-ai)
