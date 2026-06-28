@@ -10,9 +10,9 @@ Detect plant diseases, receive intelligent treatment recommendations, and improv
 
 <br>
 
-![License](https://img.shields.io/github/license/YOUR_USERNAME/cropguard-ai)
-![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/cropguard-ai)
-![Issues](https://img.shields.io/github/issues/YOUR_USERNAME/cropguard-ai)
+![License](https://img.shields.io/github/license/maneziezra/cropguard-ai)
+![Stars](https://img.shields.io/github/stars/maneziezra/cropguard-ai)
+![Issues](https://img.shields.io/github/issues/maneziezra/cropguard-ai)
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
 ![React](https://img.shields.io/badge/React-19-61DAFB)
