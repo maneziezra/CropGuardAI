@@ -1,129 +1,96 @@
-<div align="center">
 
-# CropGuard AI
+# Agrinova
 
-### AI-Powered Crop Disease Detection & Smart Farming Platform
-
-Detect plant diseases, receive intelligent treatment recommendations, and improve agricultural productivity through computer vision and machine learning.
-
-<br>
-
-<br>
-
-![License](https://img.shields.io/github/license/maneziezra/cropguard-ai)
-![Stars](https://img.shields.io/github/stars/maneziezra/cropguard-ai)
-![Issues](https://img.shields.io/github/issues/maneziezra/cropguard-ai)
-![Python](https://img.shields.io/badge/Python-3.11-blue)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange)
-![React](https://img.shields.io/badge/React-19-61DAFB)
-
-</div>
-
----
+> AI-powered precision agriculture platform for Africa.
 
 ## Overview
-
-CropGuard AI is an intelligent agriculture platform that leverages deep learning and computer vision to identify crop diseases from images, provide treatment recommendations, and deliver actionable insights to farmers.
-
----
+Agrinova helps farmers detect crop diseases, monitor crop health, analyze weather, and improve yields using AI, computer vision, and modern web technologies.
 
 ## Features
+- AI disease detection
+- Satellite crop monitoring
+- Weather insights
+- Yield prediction
+- Farm dashboard
+- Responsive web app
+- Secure authentication
+- Analytics
 
-| Feature | Status |
-|----------|:------:|
-| Disease Detection | ✅ |
-| AI Diagnosis | ✅ |
-| Treatment Suggestions | ✅ |
-| Analytics Dashboard | 🚧 |
-| Weather Integration | 🚧 |
-| Yield Prediction | 📅 |
-| Mobile Application | 📅 |
-
----
-
-## Technology Stack
-
-| Layer | Technologies |
-|--------|--------------|
-| Frontend | React, Next.js, Tailwind CSS |
-| Backend | FastAPI, Python |
-| AI | TensorFlow, OpenCV, EfficientNet |
-| Database | PostgreSQL |
-| Deployment | Vercel, Railway |
-
----
+## Tech Stack
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- FastAPI
+- Python
+- TensorFlow
+- OpenCV
+- Supabase
+- PostgreSQL
 
 ## Project Structure
-
 ```text
-cropguard-ai
-├── frontend
-├── backend
-├── ai-model
-├── datasets
-├── docs
-├── screenshots
-├── .github
-├── README.md
-└── LICENSE
+Agrinova/
+├── app/
+├── components/
+├── ai/
+├── backend/
+├── public/
+├── docs/
+├── assets/
+├── package.json
+└── README.md
 ```
 
----
-
-## Quick Start
-
+## Installation
 ```bash
-git clone https://github.com/YOUR_USERNAME/cropguard-ai.git
-
-cd cropguard-ai
-
+git clone https://github.com/YOUR_USERNAME/Agrinova.git
+cd Agrinova
 npm install
-
 npm run dev
 ```
 
----
-
-## Screenshots
-
-> Add application screenshots here.
-
-```
-Landing Page
-Dashboard
-Disease Detection
-Prediction Results
+## Environment Variables
+```env
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+DATABASE_URL=
+OPENWEATHER_API_KEY=
 ```
 
----
+## Architecture
+```mermaid
+flowchart TD
+A[Farmer] --> B[Web/Mobile]
+B --> C[Backend API]
+C --> D[AI Services]
+C --> E[Database]
+D --> F[Disease Prediction]
+```
+
+## AI Pipeline
+```mermaid
+flowchart LR
+A[Leaf Image] --> B[Preprocessing]
+B --> C[CNN Model]
+C --> D[Prediction]
+D --> E[Recommendation]
+```
 
 ## Roadmap
-
-- [x] AI Disease Detection
-- [x] Image Classification
-- [ ] Farmer Dashboard
-- [ ] Weather Forecasting
-- [ ] Pest Detection
-- [ ] Mobile Application
-- [ ] Offline AI Support
-- [ ] Drone Integration
-
----
+- [x] Website
+- [x] Dashboard
+- [x] AI Detection
+- [ ] Mobile App
+- [ ] Drone Support
+- [ ] IoT Sensors
+- [ ] AI Assistant
 
 ## Contributing
-
-Contributions are welcome. Please open an issue to discuss proposed changes before submitting a pull request.
-
----
+Fork, create a branch, commit your changes, and open a pull request.
 
 ## License
+MIT
 
-Distributed under the MIT License.
-
-<div align="center">
-
-**Built by AgriNova**
-
-*AI for Sustainable Agriculture*
-
-</div>
+---
+Built with ❤️ for African Agriculture.
